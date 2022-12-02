@@ -1,0 +1,87 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.quiz-title {
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid #777777;
+}
+
+.quiz-header {
+  padding: 20px;
+  border-bottom: 1px solid #777777;
+}
+
+.question-tag {
+  width: max-content;
+  display: flex;
+  padding: 5px;
+  background-color: orange;
+}
+
+.question-card {
+  margin-top: 10px;
+  padding: 20px;
+  background-color: #eeeeee;
+}
+
+.option-render {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.options {
+  display: flex;
+  background-color: #d0dff6;
+  width: 60%;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.option-text {
+  overflow-wrap: anywhere;
+}
+
+.end-line {
+  margin-top: 20px;
+  border-bottom: 1px solid #777777;
+}
+
+.action-cta {
+  margin-top: 2px;
+}
+
+.action-cta > button:not(first-child) {
+  margin-left: 2px;
+}
+
+.pagination {
+  margin-top: 30px;
+}
+
+.pagination > button:not(first-child) {
+  margin-left: 2px;
+  padding: 10px;
+}
+
+.submit-quiz {
+  margin-top: 2px;
+  display: flex;
+}
+.submit-quiz > button:not(:last-child) {
+  margin-right: 2px;
+}
+
+.piechart {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  margin-top: 20px;
+}
